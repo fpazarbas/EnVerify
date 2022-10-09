@@ -1,6 +1,6 @@
   Pod::Spec.new do |spec|
     spec.name         = "EnVerify"
-    spec.version      = "1.0.1"
+    spec.version      = "1.0.2"
     spec.summary      = "EnVerify."
     spec.authors      = { "Enqura" => "http://www.enqura.com" }
     spec.homepage     = "http://www.enqura.com"
@@ -8,8 +8,9 @@
     spec.source       = {:git =>  "https://github.com/fpazarbas/EnVerify.git", :tag => spec.version.to_s}
     spec.source_files = "EnVerify/**/*"
     spec.requires_arc = true
-    spec.public_header_files = "EnVerify.framework/Headers/*.h"
-    spec.ios.vendored_frameworks = "EnVerify.framework"
+    spec.public_header_files = "EnVerify/EnVerify.framework/Headers/*.h"
+    spec.static_framework = true
+    #spec.ios.vendored_frameworks = "EnVerify.framework"
 
     spec.dependency 'Starscream', '~> 3.0.0'
     spec.dependency 'GoogleWebRTC'
