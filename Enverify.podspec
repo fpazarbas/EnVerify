@@ -1,12 +1,12 @@
   Pod::Spec.new do |spec|
     spec.name         = "EnVerify"
-    spec.version      = "1.0.14"
+    spec.version      = "1.0.15"
     spec.summary      = "EnVerify."
     spec.authors      = { "Enqura" => "http://www.enqura.com" }
     spec.homepage     = "http://www.enqura.com"
     spec.platform     = :ios, "10.3"
-    spec.source       = {:http =>  "https://github.com/fpazarbas/EnVerify/archive/refs/tags/1.0.14.zip"}
-    spec.vendored_frameworks = 'EnVerify.framework'
+    spec.source       = {:http =>  "https://github.com/fpazarbas/EnVerify/archive/refs/tags/1.0.15.zip"}
+    spec.vendored_frameworks = "EnVerify.framework"
     spec.requires_arc = true
 
     spec.dependency 'Starscream', '~> 3.0.0'
