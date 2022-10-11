@@ -4,6 +4,7 @@
     spec.summary      = "EnVerify."
     spec.authors      = { "Enqura" => "http://www.enqura.com" }
     spec.homepage     = "http://www.enqura.com"
+    spec.license          = { :type => 'MIT', :file => 'LICENSE' }
     spec.platform     = :ios
     spec.ios.deployment_target = '10.3'
     spec.source       = {:http =>  "https://github.com/fpazarbas/EnVerify/archive/refs/tags/1.0.24.zip"}
