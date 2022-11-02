@@ -9,19 +9,20 @@
     spec.ios.deployment_target = '10.3'
     spec.source       = {:http =>  "https://github.com/fpazarbas/EnVerify/archive/refs/tags/1.0.38.zip"}
     spec.ios.vendored_frameworks = "EnVerify-1.0.38/EnVerify.framework"
+    spec.source_files: "EnVerify-1.0.38/*"
     spec.ios.frameworks = "EnVerify"
     spec.requires_arc = true	
-    #spec.dependency 'Starscream', '~> 3.0.0'
-    #spec.dependency 'GoogleWebRTC'
-    #spec.dependency 'Socket.IO-Client-Swift'
-    #spec.dependency 'Alamofire', '~> 5.5.0'
-    #spec.dependency 'GoogleMLKit/TextRecognition','2.2.0'
-    #spec.dependency 'GoogleMLKit/FaceDetection'
-    #spec.dependency 'SnapKit', '~> 5.0.0'
-    #spec.dependency 'OpenSSL-Universal','1.1.1400'
-    #spec.dependency 'SwiftyJSON', '~> 5.0'
-    #spec.dependency 'TensorFlowLiteSwift'
-    #spec.dependency 'netfox', :configurations => ['Debug']
+    spec.dependency 'Starscream', '~> 3.0.0'
+    spec.dependency 'GoogleWebRTC'
+    spec.dependency 'Socket.IO-Client-Swift'
+    spec.dependency 'Alamofire', '~> 5.5.0'
+    spec.dependency 'GoogleMLKit/TextRecognition','2.2.0'
+    spec.dependency 'GoogleMLKit/FaceDetection'
+    spec.dependency 'SnapKit', '~> 5.0.0'
+    spec.dependency 'OpenSSL-Universal','1.1.1400'
+    spec.dependency 'SwiftyJSON', '~> 5.0'
+    spec.dependency 'TensorFlowLiteSwift'
+    spec.dependency 'netfox', :configurations => ['Debug']
 
   end
 
