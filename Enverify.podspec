@@ -18,7 +18,7 @@
     spec.dependency 'GoogleMLKit/TextRecognition','2.2.0'
     spec.dependency 'GoogleMLKit/FaceDetection'
     spec.dependency 'SnapKit', '~> 5.0.0'
-    spec.dependency 'OpenSSL-Universal','1.1.1410'
+    spec.dependency 'OpenSSL-Universal','1.1.1400'
     spec.dependency 'SwiftyJSON', '~> 5.0'
     spec.dependency 'TensorFlowLiteSwift'
     spec.dependency 'netfox', :configurations => ['Debug']
